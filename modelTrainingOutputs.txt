@@ -113,4 +113,27 @@ Epoch 10/10
 ******************** Model E ********************
 filename: captchaModelE.hdf5
 description: 
+Epoch 1/10
+731/731 [==============================] - 8s 10ms/step - loss: 1.5271 - accuracy: 0.5906 - val_loss: 0.1019 - val_accuracy: 0.9752
+Epoch 2/10
+731/731 [==============================] - 7s 10ms/step - loss: 0.0714 - accuracy: 0.9839 - val_loss: 0.0378 - val_accuracy: 0.9920
+Epoch 3/10
+731/731 [==============================] - 7s 9ms/step - loss: 0.0385 - accuracy: 0.9907 - val_loss: 0.0259 - val_accuracy: 0.9935
+Epoch 4/10
+731/731 [==============================] - 7s 9ms/step - loss: 0.0243 - accuracy: 0.9935 - val_loss: 0.0297 - val_accuracy: 0.9920
+Epoch 5/10
+731/731 [==============================] - 7s 9ms/step - loss: 0.0201 - accuracy: 0.9944 - val_loss: 0.0480 - val_accuracy: 0.9819
+Epoch 6/10
+731/731 [==============================] - 7s 9ms/step - loss: 0.0168 - accuracy: 0.9947 - val_loss: 0.0219 - val_accuracy: 0.9942
+Epoch 7/10
+731/731 [==============================] - 7s 9ms/step - loss: 0.0132 - accuracy: 0.9953 - val_loss: 0.0210 - val_accuracy: 0.9940
+Epoch 8/10
+731/731 [==============================] - 7s 9ms/step - loss: 0.0126 - accuracy: 0.9960 - val_loss: 0.0259 - val_accuracy: 0.9927
+Epoch 9/10
+731/731 [==============================] - 7s 9ms/step - loss: 0.0085 - accuracy: 0.9975 - val_loss: 0.0170 - val_accuracy: 0.9945
+Epoch 10/10
+731/731 [==============================] - 7s 9ms/step - loss: 0.0101 - accuracy: 0.9967 - val_loss: 0.0187 - val_accuracy: 0.9953
+
+<keras.callbacks.History at 0x7fd0ff5dad90>
+
 

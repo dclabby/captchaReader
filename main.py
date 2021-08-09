@@ -81,4 +81,10 @@ for iModel, model in enumerate(models):
     plt.xlabel('predicted label')
     plt.ylabel('true label')
     plt.title('Confusion Matrix for ' + model.split('.')[0])
+    # f.tight_layout()
     plt.show()
+    
+plt.figure()
+plt.bar([m.strip('captcha').strip('.hdf5') for m in models], capAccuracy)
+plt.ylim((0.9,1))
+plt.ylabel('CAPTCHA Accuracy')
